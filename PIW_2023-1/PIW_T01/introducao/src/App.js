@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+//import HelloWorld from './components/00HelloWorld';
+import Calculadora from './components/01Calculadora';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Kaique Jorge</h1>
-      <h2>Venice Bitch</h2>
+     <div>
+      <Calculadora />
     </div>
   );
 }
