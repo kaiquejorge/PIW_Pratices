@@ -5,9 +5,16 @@ import './App.css';
 //import MeusDados from './components/Atividade00/01MeusDados';
 //import MeusDados from './components/Atividade00/02MeusDados';
 //import MeusDados from './components/Atividade00/03Temperatura';
-import Pai from './components/Atividade01/questao01/01Pai';
-import * as PC from './components/Atividade01/questao01/02MeuPc';
-import * as Batalha from './components/Atividade01/questao01/03Batalha';
+//import Pai from './components/Atividade01/questao01/01Pai';
+//import * as PC from './components/Atividade01/questao01/02MeuPc';
+//import * as Batalha from './components/Atividade01/questao01/03Batalha';
+import PokemonAxios from './components/Atividade00/10Axios/PokemonAxios';
+
+function App() {
+  return (
+    <PokemonAxios />
+  );
+}
 
 /*function App() {
   return (
@@ -21,7 +28,7 @@ import * as Batalha from './components/Atividade01/questao01/03Batalha';
   );
 }*/
 
-function App() {
+/*function App() {
   return (
      <div>
       <Pai />
@@ -43,6 +50,6 @@ function App() {
       </Batalha.World>
     </div>
   );
-}
+}*/
 
 export default App;
