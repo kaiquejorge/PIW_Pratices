@@ -9,12 +9,12 @@ import './App.css';
 //import * as PC from './components/Atividade01/questao01/02MeuPc';
 //import * as Batalha from './components/Atividade01/questao01/03Batalha';
 //import PokemonAxios from './components/Atividade00/10Axios/PokemonAxios';
-import Signin from './components/13MUI/01Signin/Signin';
-
+//import Signin from './components/13MUI/01Signin/Signin';
+import MyMenu from './components/13MUI/02CRUD/MyMenuV1';
 
 function App() {
   return (
-    <Signin />
+    <MyMenu />
   );
 }
 
