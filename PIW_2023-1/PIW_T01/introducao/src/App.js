@@ -10,11 +10,13 @@ import './App.css';
 //import * as Batalha from './components/Atividade01/questao01/03Batalha';
 //import PokemonAxios from './components/Atividade00/10Axios/PokemonAxios';
 //import Signin from './components/13MUI/01Signin/Signin';
-import MyMenu from './components/13MUI/02CRUD/MyMenuV1';
+//import MyMenu from './components/13MUI/02CRUD/MyMenuV1';
+//import MainPage from './components/13MUI/02CRUD/MainPage';
+import MeuIndex from './components/11Redux/v2/MeuIndex';
 
 function App() {
   return (
-    <MyMenu />
+    <MeuIndex />
   );
 }
 

@@ -1,8 +1,9 @@
 import { AppBar, Box, Button, Container, Menu, MenuItem, Toolbar, Typography } from "@mui/material"
 import AdbIcon from '@mui/icons-material/Adb';
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
-const MyMenu = () => {
+const MyMenuV1 = () => {
 
     const [achorElProfessor, setAnchorElProfessor] = useState(null)
 
@@ -87,4 +88,4 @@ const MyMenu = () => {
     )
 }
 
-export default MyMenu
+export default MyMenuV1
